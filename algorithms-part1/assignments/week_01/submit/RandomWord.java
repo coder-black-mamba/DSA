@@ -7,6 +7,7 @@ import edu.princeton.cs.algs4.StdRandom;
 public class RandomWord {
     public static void main(String[] args) {
         String champion = "";
+        StdOut.println(champion);
         int i = 1;
         while (!StdIn.isEmpty()) {
             String word = StdIn.readString();
