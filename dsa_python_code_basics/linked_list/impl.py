@@ -1,7 +1,7 @@
 # at first implement the node
 # that is the data like this [data]
 class Node:
-    def __init__(self, data) -> None:
+    def __init__(self, data):
         self.data = data
         self.next = None
 
@@ -9,7 +9,7 @@ class Node:
 
 
 class LinkedList:
-    def __init__(self) -> None:
+    def __init__(self):
         self.head = None
 
     # deffining the print of linked list
@@ -104,6 +104,9 @@ class LinkedList:
         if type(datas) is list:
             for data in datas :
                 self.insert_at_last(data)
+
+
+    # Assignment
 
 
 
