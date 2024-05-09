@@ -32,8 +32,8 @@
   <tr>
     <td>4.</td>
     <td>Linked List - Data Structures & Algorithms Tutorials in Python #4</td>
-    <td><input type="checkbox" name="assignment_done_4"></td>
-    <td><input type="checkbox" name="implementation_done_4"></td>
+    <td><input type="checkbox" name="assignment_done_4"checked></td>
+    <td><input type="checkbox" name="implementation_done_4"checked></td>
   </tr>
   <tr>
     <td>5.</td>
