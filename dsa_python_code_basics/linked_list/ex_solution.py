@@ -87,6 +87,9 @@ class LinkedList:
         
     # remmoving data at given inddex   
     def remove_at(self, index):
+        if index ==0:
+            self.head=self.head.next
+            return
         if index > 0 and index < self.get_length():
                 itr = self.head
                 curr_idx = 0
@@ -107,6 +110,22 @@ class LinkedList:
 
 
     # Assignment Questions
+
+    def find_index(self,value):
+        itr = self.head 
+        count = 0
+        while itr:
+            if itr.next==None and value != itr.data:
+                return None
+            if value == itr.data:
+                return count
+                    
+            # update
+            count+=1
+            itr=itr.next    
+
+
+
     def insert_after_value(self,value,data):
         if data:
             itr = self.head 
@@ -125,17 +144,11 @@ class LinkedList:
             raise Exception("not a valid data")
             return
     def remove_by_value(self,value):
-        itr = self.head 
-        while itr:
-            if itr.next==None and value != itr.data:
-                raise Exception("value not found")
-            if value == itr.data:
-                if itr.next:
-                    print(itr.next.data,value)
-                    itr.next=itr.next.next
-                return
-                # update
-            itr=itr.next    
+        idx=self.find_index(value)
+        if idx is not None:
+            self.remove_at(idx)
+            return
+        raise Exception("value not found")
 
 
 
@@ -162,17 +175,18 @@ if __name__ == "__main__":
     # assignment test
     ll = LinkedList()
     ll.insert_values(["banana","mango","grapes","orange"])
-    # print(ll.print())
-    ll.insert_after_value("mango","apple") # insert apple after mango
-    # print(ll.print())
-    # print("First Call Remove By Value")
-    # ll.remove_by_value("orange") # remove orange from linked list
-    # print(ll.print())
-    # ll.remove_by_value("figs")
-    # print("Second Call Remove By Value")
     print(ll.print())
+    ll.insert_after_value("mango","apple") # insert apple after mango
+    print(ll.print())
+    print("First Call Remove By Value")
+    ll.remove_by_value("orange") # remove orange from linked list
+    print(ll.print())
+    # ll.remove_by_value("figs")
+    print("Second Call Remove By Value")
+    print(ll.print())
+    print(ll.find_index("banana"))
     ll.remove_by_value("banana")
-    # ll.remove_by_value("mango")
-    # ll.remove_by_value("apple")
-    # ll.remove_by_value("grapes")
+    ll.remove_by_value("mango")
+    ll.remove_by_value("apple")
+    ll.remove_by_value("grapes")
     print(ll.print())
