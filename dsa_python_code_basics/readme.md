@@ -1,8 +1,8 @@
 ## Tracking Sheet
 ### 20 Days Basic DSA Challenge
 ####  [github](https://github.com/codebasics/data-structures-algorithms-python)
-### Started At 5/5/24
-
+### Started At (1-06-24)
+### Estimated End Date (15-06-24)
 
 <table border="1">
   <tr>
@@ -14,26 +14,26 @@
   <tr>
     <td>1.</td>
     <td>Data Structures & Algorithms Tutorial in Python #1 - What are data structures?</td>
-    <td><input type="checkbox" name="assignment_done_1" checked></td>
-    <td><input type="checkbox" name="implementation_done_1"checked></td>
+    <td><input type="checkbox" name="assignment_done_1"  ></td>
+    <td><input type="checkbox" name="implementation_done_1" ></td>
   </tr>
   <tr>
     <td>2.</td>
     <td>Big O notation - Data Structures & Algorithms Tutorial #2 | Measuring time complexity</td>
-    <td><input type="checkbox" name="assignment_done_2"checked></td>
-    <td><input type="checkbox" name="implementation_done_2"checked></td>
+    <td><input type="checkbox" name="assignment_done_2" ></td>
+    <td><input type="checkbox" name="implementation_done_2" ></td>
   </tr>
   <tr>
     <td>3.</td>
     <td>Arrays - Data Structures & Algorithms Tutorials in Python #3</td>
-    <td><input type="checkbox" name="assignment_done_3"checked></td>
-    <td><input type="checkbox" name="implementation_done_3"checked></td>
+    <td><input type="checkbox" name="assignment_done_3" ></td>
+    <td><input type="checkbox" name="implementation_done_3" ></td>
   </tr>
   <tr>
     <td>4.</td>
     <td>Linked List - Data Structures & Algorithms Tutorials in Python #4</td>
-    <td><input type="checkbox" name="assignment_done_4"checked></td>
-    <td><input type="checkbox" name="implementation_done_4"checked></td>
+    <td><input type="checkbox" name="assignment_done_4" ></td>
+    <td><input type="checkbox" name="implementation_done_4" ></td>
   </tr>
   <tr>
     <td>5.</td>

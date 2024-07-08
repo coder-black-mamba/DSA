@@ -190,3 +190,9 @@ if __name__ == "__main__":
     ll.remove_by_value("apple")
     ll.remove_by_value("grapes")
     print(ll.print())
+
+
+
+
+
+# simple function for making pattern
