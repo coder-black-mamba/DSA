@@ -1,1 +1,1 @@
-HP ProBook 445 G7HP ProBook 445 G7
+HP ProBook 445 G7HP ProBook 445 G7HP EliteBook 840 G6
